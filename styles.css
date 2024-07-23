@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     font-family: 'Open Sans', sans-serif;
+     font-weight:400 ;
+     background-color: hsl(257, 40%, 49%);
+     background-image: url('./images/bg-desktop.svg');
+}
+.logo{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.container{
+    margin-top: 70px; 
+    margin-left: 40px;
+    margin-right: 20px;
+    max-width: 1440px;
+    max-height: 100vh;
+    display: flex;
+}
+.container .text{
+    margin-top: 40px;
+    margin-left: 40px;
+    text-transform: capitalize;
+    color: white;
+    margin-right: 30px;
+}
+.text-head{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400, 600;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.text-para{
+    line-height: 2.0rem;
+    text-transform: none;
+    font-size: 20px;
+}
+.btn{
+    border-radius: 20%;
+    
+}
+.styled-button {
+    background-color:white;
+    border: none; 
+    color: hsl(257, 40%, 49%);
+    padding: 20px 50px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 20%; 
+    width: 50%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; 
+}
+
+.styled-button:hover {
+    background-color:hsl(300, 69%, 71%); 
+    color: white;
+}
+.fa {
+    color: white;
+}
+.social-icons{
+    float: inline-end;
+}
+.social-link {
+   color: #fff;
+   margin: 30px;
+   border-radius: 20%; 
+   transition: transform 0.3s ease;
+}
+
+.social-link:hover{
+    color: #fff;
+    border: none;
+    background-color: hsl(300, 69%, 71%);
+    transform: scale(1.1); 
+}
+
